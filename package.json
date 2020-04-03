@@ -4,13 +4,13 @@
   "version": "1.0.0",
   "author": "Andrico Karoulla <karoulla.andrico@gmail.com>",
   "dependencies": {
-    "lerna": "*",
     "gatsby": "*",
     "gatsby-link": "*",
     "gatsby-plugin-react-helmet": "*",
     "gatsby-plugin-react-next": "*",
     "gatsby-source-filesystem": "*",
     "gatsby-transformer-json": "*",
+    "lerna": "*",
     "react": "*",
     "react-helmet": "*",
     "serve": "*",
@@ -21,18 +21,13 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "test": "jest test --config ./json-config.json"
-  },
-  "scripts": {
     "run:blog": "cd packages/blog && yarn develop",
     "run:shop": "cd packages/shop && yarn develop",
     "run:all": "npm-run-all --parallel run:blog run:shop"
   },
   "devDependencies": {
     "@babel/preset-env": "*",
-      "@babel/preset-react": "*",
+    "@babel/preset-react": "*",
     "babel-jest": "*",
     "enzyme": "*",
     "enzyme-adapter-react-16": "*"
