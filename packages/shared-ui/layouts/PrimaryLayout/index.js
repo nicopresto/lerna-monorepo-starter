@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import {Header} from '../../'
 import './index.css'
 
-const Layout = ({ children, data }) => (
+const PrimaryLayout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
@@ -31,6 +31,4 @@ const Layout = ({ children, data }) => (
   </div>
 )
 
-Layout.propTypes = {
-  children: PropTypes.func,
-}
+export default PrimaryLayout
