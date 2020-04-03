@@ -1,5 +1,5 @@
 import React from 'react'
-import { ItemCard, ItemCardWrapper } from '@lerna-monorepo/shared-ui/components/ItemCard'
+import { ItemCard, ItemCardWrapper } from '@lerna-monorepo/shared-ui'
 
 const BlogPage = ({ data }) => {
   const edges = data.allBlogJson.edges

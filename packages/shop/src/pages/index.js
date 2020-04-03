@@ -1,5 +1,5 @@
 import React from 'react'
-import { ItemCard, ItemCardWrapper } from '@lerna-monorepo/shared-ui/components/ItemCard'
+import { ItemCard, ItemCardWrapper } from '@lerna-monorepo/shared-ui'
 
 const IndexPage = ({ data }) => {
   const edges = data.allShoppingJson.edges
