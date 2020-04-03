@@ -3,11 +3,8 @@
   "description": "Lerna monorepo starter",
   "version": "1.0.0",
   "author": "Andrico Karoulla <karoulla.andrico@gmail.com>",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "dependencies": {
+    "lerna": "^2.11.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
@@ -43,5 +40,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
