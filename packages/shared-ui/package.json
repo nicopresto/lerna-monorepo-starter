@@ -4,9 +4,9 @@
   "version": "1.0.2",
   "dependencies": {
     "dotenv": "8.2.0",
-    "gatsby": "*",
-    "gatsby-link": "*",
-    "gatsby-plugin-react-helmet": "*",
+    "gatsby": "2.20.12",
+    "gatsby-link": "2.3.2",
+    "gatsby-plugin-react-helmet": "3.2.1",
     "gatsby-plugin-react-next": "2.1.0-alpha.e9c3027b",
     "gatsby-react-router-scroll": "2.2.1",
     "gatsby-source-filesystem": "2.2.2",
